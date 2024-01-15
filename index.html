@@ -1,0 +1,665 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi">
+    <title>ZYAN - Personal Portfolio HTML Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/font-awesome-pro.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/plugin.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+      #banner {
+        position: relative;
+        overflow: hidden;
+      }
+  
+      .background-image {
+        background: url(images/bg/banner_3.jpg);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+      }
+  
+      .vignette-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: '';
+        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+        pointer-events: none;
+        z-index: -1;
+      }
+    </style>
+  </head>
+
+  <body class="home_2">
+    <!--================================
+        PRELOADER START
+    =================================-->
+    <div class="preloader">
+      <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+      <h5 class="preloader-text">Loading</h5>
+    </div>
+    <!--================================
+        PRELOADER END
+    =================================-->
+
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+    <nav class="main_menu_2">
+      <span class="menu_2_icon">
+        <i class="fa-light fa-bars bar_icon-staggered bar_icon"></i>
+        <i class="fa-light fa-xmark close_icon"></i>
+      </span>
+
+      
+
+      <ul id="list-example" class="list-group">
+        <li>
+          <a class="list-group-item list-group-item-action text_hover_animaiton" href="#banner">
+            <span><img src="svg/home-2.svg" alt="icon" class="img-fluid w-100 svg"></span>Home
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item list-group-item-action text_hover_animaiton" href="#about">
+            <span><img src="svg/clipboard.svg" alt="icon" class="img-fluid w-100 svg"></span>About Me
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item list-group-item-action text_hover_animaiton" href="#service">
+            <span><img src="svg/briefcase.svg" alt="icon" class="img-fluid w-100 svg"></span>
+            Service
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item list-group-item-action text_hover_animaiton" href="#skills">
+            <span><img src="svg/path.svg" alt="icon" class="img-fluid w-100 svg"></span>
+            skills
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item list-group-item-action text_hover_animaiton" href="#portfolio">
+            <span><img src="svg/messages-1.svg" alt="icon" class="img-fluid w-100 svg"></span>
+            education
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item list-group-item-action text_hover_animaiton" href="#blog">
+            <span><img src="svg/quote-down-square.svg" alt="icon" class="img-fluid w-100 svg"></span>
+            blog
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item list-group-item-action text_hover_animaiton" href="#contact">
+            <span><img src="svg/user-square.svg" alt="icon" class="img-fluid w-100 svg"></span>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+    <div class="main">
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <!--================================
+                BANNER 2 START
+            =================================-->
+        <!-- <section id="banner" class="tf__banner_2 banner" style="background: url(images/bg/banner_3.jpg)"> -->
+          <section id="banner" class="tf__banner_2 banner" data-speed="10">
+
+            <!-- Background Image with Vignette Overlay -->
+            <div class="background-image"></div>
+            <div class="vignette-overlay"></div>
+            <div class="tf__about_img tf__about_img_2">
+             
+              
+            
+            <!-- Content -->
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-xxl-6 col-md-9 col-lg-7">
+                  <div class="tf__banner_text">
+                    <h1>
+                      Hi, I'm VINEED! Creative
+                      <span class="cd-headline rotate-1">
+                        <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+                        <span class="cd-words-wrapper">
+                          <b class="is-visible">Web-Designer</b>
+                          <b>Full-stack Developer</b>
+                          <b>graphic Designer</b>
+                        </span>
+                      </span>
+                    </h1>
+                    <p class="text-light">
+                      I am a dedicated full-stack developer with a passion for crafting seamless and efficient digital experiences. Armed with a solid foundation in both front-end and back-end technologies, I thrive on translating intricate concepts into user-friendly interfaces that not only captivate but also optimize user engagement.
+                    </p>
+                    <ul>
+                      <li>
+                        <a class="common_btn" download="" href="Vineed Vijay CH.pdf">Download Cv
+                          <i class="fa-solid fa-arrow-down-to-line"></i></a>
+                      </li>
+                      <li>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </section>
+          
+        <!--================================
+                BANNER 2 END
+            =================================-->
+
+        <!--================================
+                ABOUT 2 START
+            =================================-->
+            <section id="about" class="tf__about_2 pt_130 xs_pt_80">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-9 col-lg-9">
+                    <div class="tf__section_heading mb_40">
+                      <h5 class="has-animation">ABOUT Me</h5>
+                      <h2 class="has-animation">
+                        Passionate about Creating Unique Experiences
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-between">
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="tf__about_text_2">
+                      <ul>
+                        <li>
+                          <div class="top fade_bottom" data-trigerid="about">
+                            <div class="img">
+                              <img src="images/icon/about_1.png" alt="about" class="img-fluid w-100">
+                            </div>
+                            <div>
+                              <h3>My Vision</h3>
+                              <p>
+                                I am driven by the vision to create captivating designs that resonate with people's emotions. Every project is an opportunity to bring ideas to life and make a lasting impact.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="top fade_bottom" data-trigerid="about">
+                            <div class="img">
+                              <img src="images/icon/about_2.png" alt="about" class="img-fluid w-100">
+                            </div>
+                            <div>
+                              <h3>Mission Statement</h3>
+                              <p>
+                                My mission is to blend innovation with functionality, delivering solutions that not only meet but exceed expectations. Embracing challenges, I aim to contribute to a world enriched by thoughtful and inspiring design.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="tf__about_img tf__about_img_2">
+                      <img src="images/bg/software-engineer-salary-2022.png" alt="ZYAN" class="img-fluid w-100">
+                      <!-- <div class="tf__about_img_text">
+                        <i class="fa-sharp fa-solid fa-award"></i>
+                        <h4>Passionate <span>programmer</span></h4>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        <!--================================
+                ABOUT 2 END
+            =================================-->
+
+        <!--================================
+                SERVICE 2 START
+            =================================-->
+            <section id="service" class="tf__service_2 pt_130 xs_pt_80 animation">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-9 col-lg-9 m-auto">
+                    <div class="tf__section_heading mb_40">
+                      <h5 class="has-animation">MY Services</h5>
+                      <h2 class="has-animation">
+                        Transforming ideas into reality with creativity and expertise
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="tf__single_service_2 fade_left" data-trigerid="service">
+                      <div class="text">
+                        <span>
+                          <img src="images/icon/icons8-website-100.png" alt="service" class="img-fluid w-100 svg">
+                          
+                        </span>
+                        <h3>Websites</h3>
+                        <p>
+                          Crafting visually stunning and user-friendly websites that leave a lasting impression.
+                        </p>
+                      </div>
+                      <a href="#skills">Skills <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="tf__single_service_2 fade_left active" data-trigerid="service">
+                      <div class="text">
+                        <span>
+                          <img src="images/icon/icons8-cms-50.png" alt="service" class="img-fluid w-100 svg">
+                        </span>
+                        <h3>CMS Applications</h3>
+                        <p>
+                          Building robust content management systems for efficient and seamless data management.
+                        </p>
+                      </div>
+                      <a href="#skills">Skills <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="tf__single_service_2 fade_left" data-trigerid="service">
+                      <div class="text">
+                        <span>
+                          <img src="images/icon/icons8-graphic-design-48.png" alt="service" class="img-fluid w-100 svg">
+                        </span>
+                        <h3>Graphic Designing</h3>
+                        <p>
+                          Creating visually appealing graphics that communicate your brand's essence and message.
+                        </p>
+                      </div>
+                      <a href="#skills">Skills <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        <!--================================
+                SERVICE 2 END
+            =================================-->
+
+        <!--================================
+                SKILLS 2 START
+            =================================-->
+        <section id="skills" class="tf__skills_2 pt_115 xs_pt_75 pb_120 xs_pb_80 mt_165 xs_mt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 col-lg-9 m-auto">
+                <div class="tf__section_heading mb_30">
+                  <h5 class="has-animation">MY Skills</h5>
+                  <h2 class="has-animation">
+                    Crafting Stories through Design and Imagination
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="row">
+              <div class="col-12">
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                          <h2>Front-End Development</h2>
+                          
+                          <p>
+                            Proficient in building responsive and visually appealing user interfaces using HTML, CSS, and JavaScript. Ensuring a seamless and engaging user experience across various devices.
+                          </p>
+                          
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                          
+                          <h2>Back-End Development</h2>
+                          
+                          <p>
+                            Experienced in server-side development with expertise in  Python-Django. Implementing robust and scalable solutions to handle data and business logic.
+                          </p>
+                          
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                          
+                          <h2>Database Management</h2>
+                          
+                          <p>
+                            Skilled in designing and managing databases, especially in SQL. Ensuring efficient data storage, retrieval, and organization with a focus on optimization.</p>
+                         
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                          
+                          <h2>Problem Solving</h2>
+                          
+                          <p>
+                            Adept at analyzing complex problems and implementing effective solutions. Employing logical and creative thinking to overcome challenges in both front-end and back-end development.
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                 
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================================
+                SKILLS 2 END
+            =================================-->
+
+        <!--================================
+                PORTFOLIO 2 START
+            =================================-->
+        <section id="portfolio" class="tf__portfolio tf__portfolio_2 mt_120 xs_mt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 col-lg-9 m-auto">
+                <div class="tf__section_heading mb_30">
+                  <h2 class="has-animation text-center">
+                    Education
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="row education">
+              <div class="col-xl-6 col-lg-6">
+                <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                  <h3>kerala State Board</h3>
+                  <h2>Plus Two</h2>
+                  <h4>2019</h4>
+                  <p>
+                    GHSS Uduma, 
+                    kasaragod dist., Kerala
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6">
+                <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                  <h3>Kannur University 
+                    Kerala</h3>
+                  <h2>Bcom Computer Application
+                    </h2>
+                  <h4>2022</h4>
+                  <p>
+                    Sree Narayana College Chalingal
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6">
+                <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                  <h3>360 DigiTMG Bangalore</h3>
+                  <h2>Data Science With AI 
+                    Certification</h2>
+                  <h4>2022</h4>
+                  <p>
+                   
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6">
+                <div class="tf__single_skill_2 fade_bottom" data-trigerid="skills">
+                  <h3>Synnefo Solutions Koch
+                    </h3>
+                  <h2>Fullstack Development –
+                    Python</h2>
+                  <h4>2023</h4>
+                  <p>
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </section>
+        <!--================================
+                PORTFOLIO 2 END
+            =================================-->
+
+        <!--================================
+                BRAND START
+            =================================-->
+        <div class="tf__brand mt_120 xs_mt_80">
+          <div class="row">
+            <div class="col-12">
+              <div class="marquee_animi">
+                <ul>
+                  <li>* SQL</li>
+                  <li>* Python</li>
+                  <li>* django</li>
+                  <li>* Development</li>
+                  <li>* css</li>
+                  <li>* html</li>
+                  <li>* JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================================
+                BRAND END
+            =================================-->
+
+        <!--================================
+                BLOG 2 START
+            =================================-->
+        <section id="blog" class="tf__blog_2 pt_120 xs_pt_80 pb_120 xs_pb_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-8 m-auto mb_30">
+                <div class="tf__section_heading">
+                  
+                  <h2 class="has-animation">
+                    Work Experience
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="row animation">
+              <div class="row ">
+                <div class="col-12 ">
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                      <div class="row">
+                        <div class="col-xl- col-lg-">
+                          <div class="tf__single_skill_2 fade_bottom " data-trigerid="skills">
+                            <h3>Self-Employed</h3>
+                            <h2>Freelance Fullstack Python Developer</h2>
+                            <p></p>
+                            <p>
+                              - Specialized in fullstack Python development, creating seamless and efficient web applications.
+                            </p>
+
+                            <p>
+                              - Proficient in front-end technologies (HTML, CSS, JavaScript) and back-end frameworks like Django and Flask.
+                            </p>
+
+                            <p>
+                              - Collaborating closely with clients to deliver customized solutions and 
+                              ensure project satisfaction.
+                            </p>
+                            
+                          </div>
+                        </div>
+                        
+                        
+                        
+                      </div>
+                      <div class="row">
+                        <div class="col-xl- col-lg-">
+                          <div class="tf__single_skill_2 fade_bottom " data-trigerid="skills">
+                            <h2>Certification</h2>
+                            <p></p>
+                            <h3>Data Science & AI Certification authorized by UTMspace, from 360
+                              DigiTMG
+                              </h3>
+                            <li><h3>Python Fullstack Development </h3></li>
+                            
+                            
+                          </div>
+                        </div>
+                        
+                        
+                        
+                      </div>
+                    </div>
+                    
+                   
+                    
+                  </div>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </section>
+        <!--================================
+                BLOG 2 END
+            =================================-->
+
+        <!--================================
+                CONTACT 2 START
+            =================================-->
+        <section id="contact" class="tf__contact_2 pt_95 xs_pt_45">
+          <div class="container">
+            <div class="row animation">
+              <div class="col-xl-4 col-md-6 col-lg-4 pb-5">
+                <div class="tf__contact_2_text fade_left" data-trigerid="contact">
+                  <span>
+                    <img src="svg/voice_phone.svg" alt="contact" class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Phone</h3>
+                  
+                  <a href="callto:9526673206">9526673206</a>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="tf__contact_2_text fade_left" data-trigerid="contact">
+                  <span>
+                    <img src="svg/map_issue.svg" alt="contact" class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Address</h3>
+                  <p>
+                    Mullachery House
+                    Mylatti P O
+                    Kasaragod Dist.
+                    Pin 671319
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="tf__contact_2_text fade_left" data-trigerid="contact">
+                  <span>
+                    <img src="svg/send_mail.svg" alt="contact" class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Mail</h3>
+                  
+                  <a href="mailto:vineethcpz6881@gmail.com">vineethcpz6881@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <!--================================
+                CONTACT 2 END
+            =================================-->
+
+        <!--================================
+                FOOTER 2 START
+            =================================-->
+        <div class="footer_2_copyright_area mt_120 xs_mt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="tf__footer_copyright">
+                  <!-- <p>© CodeeFly 2023 | All Rights Reserved</p>
+                  <ul>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Trams & Condition</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Sitemap</a>
+                    </li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================================
+                FOOTER 2 END
+            =================================-->
+
+        <!--================================
+                SCROLL BUTTON START
+            =================================-->
+        <div class="progress active">
+          <svg class="progress-svg" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+          </svg>
+        </div>
+        <!--================================
+                SCROLL BUTTON END
+            =================================-->
+        <!--================================
+        CURSOR START
+    =================================-->
+        <div id="magic-cursor">
+          <div id="ball"></div>
+        </div>
+        <!--================================
+        CURSOR END
+    =================================-->
+      </div>
+    </div>
+   
+
+    <script src="js/plugin.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!-- Gsap -->
+    <script src="js/animation.js"></script>
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
